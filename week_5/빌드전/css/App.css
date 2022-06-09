@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+@import url('https://webfontworld.github.io/sandbox/SBAggro.css');
+body,p,h1{padding:0; margin:0;font-family: 'Noto Sans KR', sans-serif;}
+.App{padding-top:50px;}
+/*헤더*/
+header {
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #000;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding:2vh 4vw;
+  position: fixed;
+  top:0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+
+
+}
+header .logoImg {
+  width: 6.5vw;
+  min-width: 110px;
+
+}
+header .logoutBtn {
+  font-size: 16px;
+  background-color: #00000000;
+  border: none;
+  color: rgb(199, 199, 199);
+}
+header .logoutBtn:hover {
+  color:#333;
+}
+header .loginBtn {
+  color:#333;
+  text-decoration: none;
+  font-size: 20px;
+  margin:0;
+}
+.container {
+  width: 100%;
+  max-width: 750px;
+  margin: 100px auto;
+  padding:0 10px 0;
+  box-sizing: border-box;
+}
+/* 회원가입 */
+.signupContainer{
+  margin: auto;
+  width: 50vw;
+  max-width: 500px;
+  min-width: 400px;
+  text-align: center;
+  margin-top:15vh;
+  
+}
+.title {
+  font-family: 'SBAggro', sans-serif;
+  font-weight: 300;
+  margin-bottom: 20px;
+  
+}
+.signupContentBox{  
+  width: 80%;
+  text-align: left;
+  margin: auto;
+
+}
+.con{
+  border-bottom:1px solid lightgray;
+  margin-bottom: 20px;
+}
+.signupContentBox input {
+  width: 100%;
+  font-size: 20px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  text-align: center;
+  background-color: #eee;
+}
+.signupContentBox input::placeholder {
+  font-size: 16px;
+  color: lightgray;
+}
+.RestrictionsMG{
+  font-size: 14px;
+  color:tomato;
+}
+.signupContentBox button {
+  margin-bottom:10px;
+  width: 100%;
+  padding:10px 0;
+  border:0;
+  background-color: black;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+}
+.loginBtn {
+  color:darkgrey;
+  text-align: center;
+  margin-top:20px;
+  cursor: pointer;
+
+}
+.anotherBtn{
+  text-align: center;
+  color: lightgray;
+  cursor: pointer;
+}

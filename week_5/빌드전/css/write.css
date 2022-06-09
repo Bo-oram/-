@@ -1,0 +1,45 @@
+
+
+.type{margin-top:10px;}
+
+.imgArea {text-align: center; height: 100%; box-sizing: border-box; border: 1px solid lightgray; background-color: #fff; overflow: hidden; padding: 15px;}
+textarea {font-size: 20px; white-space: pre-wrap; padding: 15px; vertical-align: top;}
+.A_type .typeBox label {margin-right: 20px;}
+.A_type form {width: 100%; height: 50%; }
+.A_type form .imgArea {max-height: 500px;}
+.A_type form img{width: 100%;}
+.A_type textarea {  width: 100%;   box-sizing: border-box; margin-top: 20px; outline: none;}
+.filebox{position: relative;}
+.filebox .label{position: absolute; right:0; bottom: 0px; font-size: 60px;padding: 10px; background-color: rgb(107, 107, 107); color: #fff; width: 50px; height: 50px; line-height: .7;text-align: center; }
+
+.B_type .typeContent {width: 100%; display: flex; }
+.B_type form img {width: 100%;}
+.B_type textarea {width: 100%; margin-left: 15px;}
+
+.C_type .typeContent {width: 100%; display: flex; flex-direction: row-reverse;}
+.C_type form img {width: 100%; }
+.C_type textarea {width: 100%; margin-right: 15px;}
+
+
+
+/* .A_type form {}
+.A_type form input{}
+.A_type div {}
+.A_type div p {}
+.A_type div textarea {}
+
+
+.B_type {}
+.B_type form {}
+.B_type form input{}
+.B_type div {}
+.B_type div p {}
+.B_type div textarea {}
+
+.C_type {}
+.C_type form {}
+.C_type form input{}
+.C_type div {}
+.C_type div p {}
+.C_type div textarea {} */
+

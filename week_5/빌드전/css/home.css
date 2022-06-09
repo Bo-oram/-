@@ -1,0 +1,52 @@
+body{
+    background-color: #eee;
+}
+.all_layout{
+    margin-bottom: 30px;
+    border:1px solid rgb(49, 49, 49);
+    padding: 2%;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 5px;    
+
+}
+
+
+
+.Atype_view .img_area{
+    text-align: center;
+    width: 100%;
+    margin:10px auto;
+
+}
+.Atype_view .img_area img{
+    width: 90%;
+    vertical-align: top;
+
+}
+.Ctype_view .span{
+    flex-direction: row-reverse;
+
+}
+
+.Btype_view .span, .Ctype_view .span{
+    display: flex;
+    align-items: flex-end;
+}
+.Btype_view .span .img_area, .Ctype_view .span .img_area{
+    width: 70%;
+    max-width: 300px;
+}
+.Btype_view .span .img_area img, .Ctype_view .span .img_area img {
+    width: 100%;
+    vertical-align: top;
+}
+.Btype_view .text, .Ctype_view .text{
+    width: 80%;
+    padding: 8px;
+
+}
+
+
+
+
